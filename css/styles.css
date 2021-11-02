@@ -1,25 +1,30 @@
 :root {
-	--primery-text-color: #757575;
-	--title-text-color: #212121;
+	--primery-text-color: #212121;
+	--secondary-text-color: #757575;
 	--accent-color: #2196f3;
 	--header-background-color: #ffffff;
+	--boxes-background-color: #ffffff;
 	--footer-background-color: #2f303a;
 	--primery-background-color: #e5e5e5;
 	--secondary-background-color: #f5f4fa;
 }
 
 body {
-	font-family: "Roboto", sans-serif;
 	background-color: var(--primery-background-color);
+	color: var(--primery-text-color);
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.03em;
 }
 
-ul {
+/* ul {
 	list-style: none;
 }
 
 a {
 	text-decoration: none;
-}
+} */
 
 /* #region HEADER */
 
@@ -28,13 +33,11 @@ a {
 }
 
 .logo {
-	color: var(--title-text-color);
+	color: var(--primery-text-color);
 	font-family: Raleway;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 31px;
-	letter-spacing: 0.03em;
 }
 
 .logo span {
@@ -42,7 +45,6 @@ a {
 }
 
 .page .link {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
@@ -50,7 +52,7 @@ a {
 }
 
 .site-nav .link {
-	color: var(--title-text-color);
+	color: var(--primery-text-color);
 }
 
 .site-nav .link:hover,
@@ -58,8 +60,12 @@ a {
 	color: var(--accent-color);
 }
 
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
 .contacts .link {
-	color: var(--primery-text-color);
+	color: var(--secondary-text-color);
 }
 
 .contacts .link:hover,
@@ -88,7 +94,6 @@ a {
 .button-hero {
 	background-color: var(--accent-color);
 	color: #ffffff;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 30px;
@@ -102,30 +107,20 @@ a {
 
 /* #region FEATURES */
 
-.section-title,
-.title {
-	color: var(--title-text-color);
-}
-
 .section-text {
-	color: var(--primery-text-color);
+	color: var(--secondary-text-color);
 }
 
 .features .title {
-	font-style: normal;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 16px;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .features .section-text {
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 }
 /* #endregion */
 
@@ -136,43 +131,38 @@ a {
 }
 
 .section-title {
-	font-style: normal;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 .team .title {
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 .team .section-text {
-	font-style: normal;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
-	letter-spacing: 0.03em;
+}
+
+.team .boxes,
+.projects .boxes {
+	background-color: var(--boxes-background-color);
 }
 /* #endregion */
 
 /* #region PROJECTS */
 .button {
-	color: var(--title-text-color);
 	background-color: var(--secondary-background-color);
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26px;
 	text-align: center;
-	letter-spacing: 0.03em;
 }
 
 .button:hover,
@@ -182,7 +172,7 @@ a {
 }
 
 .projects .title {
-	font-style: normal;
+	color: var(--primery-text-color);
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 36px;
@@ -190,11 +180,8 @@ a {
 }
 
 .projects .section-text {
-	font-style: normal;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 30px;
-	letter-spacing: 0.03em;
 }
 /* #endregion */
 
@@ -209,20 +196,13 @@ a {
 
 .address .link {
 	color: #ffffff;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 }
 
 .contacts.secondary {
 	color: rgba(255, 255, 255, 0.6);
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 }
-
 /* #endregion */

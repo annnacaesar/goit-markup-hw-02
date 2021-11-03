@@ -14,7 +14,8 @@ body {
 	color: var(--primery-text-color);
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
+	font-size: 16px;
 	letter-spacing: 0.03em;
 }
 
@@ -35,9 +36,9 @@ a {
 .logo {
 	color: var(--primery-text-color);
 	font-family: Raleway;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.2;
 }
 
 .logo span {
@@ -47,7 +48,7 @@ a {
 .page .link {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.1;
 	letter-spacing: 0.02em;
 }
 
@@ -94,13 +95,13 @@ a {
 .button-hero {
 	background-color: var(--accent-color);
 	color: #ffffff;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 30px;
+	font-weight: 700;
+	line-height: 1.9;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+	cursor: pointer;
 }
 
 /* #endregion */
@@ -112,15 +113,15 @@ a {
 }
 
 .features .title {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.1;
 	text-transform: uppercase;
 }
 
 .features .section-text {
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7;
 }
 /* #endregion */
 
@@ -131,22 +132,20 @@ a {
 }
 
 .section-title {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.2;
 	text-align: center;
 }
 
 .team .title {
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.2;
 	text-align: center;
 }
 
 .team .section-text {
-	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.2;
 	text-align: center;
 }
 
@@ -160,9 +159,9 @@ a {
 .button {
 	background-color: var(--secondary-background-color);
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 26px;
+	line-height: 1.6;
 	text-align: center;
+	cursor: pointer;
 }
 
 .button:hover,
@@ -173,15 +172,14 @@ a {
 
 .projects .title {
 	color: var(--primery-text-color);
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 18px;
-	line-height: 36px;
+	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
 .projects .section-text {
-	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.9;
 }
 /* #endregion */
 
@@ -197,12 +195,12 @@ a {
 .address .link {
 	color: #ffffff;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7;
 }
 
 .contacts.secondary {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7;
 }
 /* #endregion */

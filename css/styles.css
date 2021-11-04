@@ -142,10 +142,6 @@ a {
 	text-align: center;
 }
 
-.team .boxes,
-.projects .boxes {
-	background-color: var(--boxes-background-color);
-}
 /* #endregion */
 
 /* #region PROJECTS */
@@ -183,7 +179,7 @@ a {
 	background-color: var(--footer-background-color);
 }
 .footer .logo {
-	color: var(--boxes-background-color);
+	color: #ffffff;
 }
 
 .address .link {

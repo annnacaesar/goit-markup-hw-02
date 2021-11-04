@@ -86,6 +86,7 @@ a {
 }
 
 .button-hero {
+	font-family: inherit;
 	background-color: var(--accent-color);
 	color: #ffffff;
 	font-weight: 700;
@@ -147,6 +148,7 @@ a {
 /* #region PROJECTS */
 
 .button {
+	font-family: inherit;
 	background-color: var(--secondary-background-color);
 	font-weight: 500;
 	line-height: 1.6;

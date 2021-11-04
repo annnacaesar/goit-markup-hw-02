@@ -30,7 +30,7 @@ a {
 /* #region HEADER */
 
 .page {
-	background-color: var(--header-background-color);
+	background-color: #ffffff;
 }
 
 .logo {
@@ -156,6 +156,7 @@ a {
 /* #endregion */
 
 /* #region PROJECTS */
+
 .button {
 	background-color: var(--secondary-background-color);
 	font-weight: 500;
@@ -181,26 +182,42 @@ a {
 .projects .section-text {
 	line-height: 1.9;
 }
+
 /* #endregion */
 
 /* #region FOOTER */
 .footer {
 	background-color: var(--footer-background-color);
 }
-
 .footer .logo {
-	color: #ffffff;
+	color: var(--boxes-background-color);
 }
 
 .address .link {
 	color: #ffffff;
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
 }
 
-.contacts.secondary {
+.contacts.secondary .link {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 14px;
 	line-height: 1.7;
 }
 /* #endregion */
+
+.logo,
+.link {
+	text-decoration: none;
+}
+
+.site-nav-list,
+.contacts,
+.features,
+.work,
+.team,
+.button-list,
+.projects {
+	list-style: none;
+}

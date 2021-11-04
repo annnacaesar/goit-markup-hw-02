@@ -16,13 +16,13 @@ body {
 	letter-spacing: 0.03em;
 }
 
-/* ul {
-	list-style: none;
+.link {
+	text-decoration: none;
 }
 
-a {
-	text-decoration: none;
-} */
+.list {
+	list-style: none;
+}
 
 /* #region HEADER */
 
@@ -38,7 +38,7 @@ a {
 	color: var(--accent-color);
 }
 
-.page .link {
+.site-nav .link {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.1;
@@ -197,18 +197,3 @@ a {
 	line-height: 1.7;
 }
 /* #endregion */
-
-.logo,
-.link {
-	text-decoration: none;
-}
-
-.site-nav-list,
-.contacts,
-.features,
-.work,
-.team,
-.button-list,
-.projects {
-	list-style: none;
-}

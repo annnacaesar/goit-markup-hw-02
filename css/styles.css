@@ -73,12 +73,17 @@ body {
 
 .contacts .link {
 	color: var(--secondary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
 	color: var(--accent-color);
 }
+
 /* #endregion */
 
 /* #region HERO */

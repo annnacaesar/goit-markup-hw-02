@@ -1,9 +1,11 @@
 :root {
 	--primery-text-color: #212121;
 	--secondary-text-color: #757575;
+	--third-text-color: #ffffff;
 	--accent-color: #2196f3;
 	--footer-background-color: #2f303a;
 	--secondary-background-color: #f5f4fa;
+	--third-background-color: #2f303a;
 }
 
 body {
@@ -89,11 +91,11 @@ body {
 /* #region HERO */
 
 .hero {
-	background-color: #2f303a;
+	background-color: var(--third-background-color);
 }
 
 .hero-title {
-	color: #ffffff;
+	color: var(--third-text-color);
 	font-style: normal;
 	font-weight: 900;
 	font-size: 44px;
@@ -106,7 +108,7 @@ body {
 .button-hero {
 	font-family: inherit;
 	background-color: var(--accent-color);
-	color: #ffffff;
+	color: var(--third-text-color);
 	font-weight: 700;
 	line-height: 1.9;
 	display: flex;
@@ -114,6 +116,11 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+	background-color: #188ce8;
 }
 
 /* #endregion */
@@ -176,7 +183,7 @@ body {
 
 .button:hover,
 .button:focus {
-	color: #ffffff;
+	color: var(--third-text-color);
 	background-color: var(--accent-color);
 }
 
@@ -199,11 +206,11 @@ body {
 	background-color: var(--footer-background-color);
 }
 .footer .logo {
-	color: #ffffff;
+	color: var(--third-text-color);
 }
 
 .address .link {
-	color: #ffffff;
+	color: var(--third-text-color);
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
